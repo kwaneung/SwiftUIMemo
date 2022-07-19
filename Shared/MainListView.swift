@@ -25,7 +25,7 @@ struct MainListView: View {
                         .foregroundColor(.secondary)
                 }
             }
-            .listStyle(.plain)
+            //.listStyle(.plain) //셀이 전체를 채움
             .navigationTitle("내 메모")
         }
     }
