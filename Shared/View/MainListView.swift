@@ -17,7 +17,11 @@ struct MainListView: View {
     var body: some View {
         NavigationView {
             List(store.list) { memo in
-                MemoCell(memo: memo)
+                NavigationLink {
+                    DetailView(memo: memo)
+                } label: {
+                    MemoCell(memo: memo)
+                }
             }
             //.listStyle(.plain) //셀이 전체를 채움
             .navigationTitle("내 메모")
