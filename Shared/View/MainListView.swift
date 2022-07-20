@@ -12,6 +12,8 @@ struct MainListView: View {
     //뷰가 생성되는 시점에 store속성과 동일한 타입을 가진 인스턴스로 자동 초기화
     @EnvironmentObject var store: MemoStore
     
+    @State private var showComposer: Bool = false
+    
     var body: some View {
         NavigationView {
             List(store.list) { memo in
@@ -19,6 +21,16 @@ struct MainListView: View {
             }
             //.listStyle(.plain) //셀이 전체를 채움
             .navigationTitle("내 메모")
+            .toolbar {
+                Button {
+                    showComposer = true
+                } label: {
+                    Image(systemName: "plus")
+                }
+            }
+            .sheet(isPresented: $showComposer) {
+                ComposeView()
+            }
         }
     }
 }

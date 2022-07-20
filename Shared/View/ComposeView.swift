@@ -36,7 +36,6 @@ struct ComposeView: View {
                 {
                     Button {
                         store.insert(memo: content)
-                        
                         dismiss()
                     } label: {
                         Text("저장")
