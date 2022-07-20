@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		55309D432887AAB0007B359A /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55309D422887AAB0007B359A /* MemoCell.swift */; };
 		55309D442887AAB0007B359A /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55309D422887AAB0007B359A /* MemoCell.swift */; };
+		55309D462887AB5E007B359A /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55309D452887AB5E007B359A /* ComposeView.swift */; };
+		55309D472887AB5E007B359A /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55309D452887AB5E007B359A /* ComposeView.swift */; };
 		55B8B2002885AE6B00674733 /* SwiftUIMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55B8B1ED2885AE6900674733 /* SwiftUIMemo.xcdatamodeld */; };
 		55B8B2012885AE6B00674733 /* SwiftUIMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55B8B1ED2885AE6900674733 /* SwiftUIMemo.xcdatamodeld */; };
 		55B8B2022885AE6B00674733 /* SwiftUIMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B8B1EF2885AE6900674733 /* SwiftUIMemoApp.swift */; };
@@ -27,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		55309D422887AAB0007B359A /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
+		55309D452887AB5E007B359A /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
 		55B8B1EE2885AE6900674733 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		55B8B1EF2885AE6900674733 /* SwiftUIMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMemoApp.swift; sourceTree = "<group>"; };
 		55B8B1F12885AE6900674733 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				55309D422887AAB0007B359A /* MemoCell.swift */,
+				55B8B2122885AF8300674733 /* MainListView.swift */,
+				55309D452887AB5E007B359A /* ComposeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -81,7 +86,6 @@
 				55B8B2162885AFA800674733 /* Memory */,
 				55B8B2152885AF9D00674733 /* CoreData */,
 				55B8B1EF2885AE6900674733 /* SwiftUIMemoApp.swift */,
-				55B8B2122885AF8300674733 /* MainListView.swift */,
 				55B8B1F22885AE6B00674733 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -225,6 +229,7 @@
 				55B8B21B2885B40B00674733 /* MemoStore.swift in Sources */,
 				55B8B2132885AF8300674733 /* MainListView.swift in Sources */,
 				55B8B2062885AE6B00674733 /* Persistence.swift in Sources */,
+				55309D462887AB5E007B359A /* ComposeView.swift in Sources */,
 				55B8B2022885AE6B00674733 /* SwiftUIMemoApp.swift in Sources */,
 				55B8B2182885B2F100674733 /* Memo.swift in Sources */,
 			);
@@ -239,6 +244,7 @@
 				55B8B21C2885B40B00674733 /* MemoStore.swift in Sources */,
 				55B8B2142885AF8300674733 /* MainListView.swift in Sources */,
 				55B8B2072885AE6B00674733 /* Persistence.swift in Sources */,
+				55309D472887AB5E007B359A /* ComposeView.swift in Sources */,
 				55B8B2032885AE6B00674733 /* SwiftUIMemoApp.swift in Sources */,
 				55B8B2192885B2F100674733 /* Memo.swift in Sources */,
 			);
